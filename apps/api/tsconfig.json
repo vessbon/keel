@@ -1,0 +1,13 @@
+{
+  "extends": "@repo/typescript-config/bundler",
+
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ES2023"],
+    "types": ["bun"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,8 @@
+[test]
+coverage = true
+coverageThreshold = 0.0
+coverageReporter = ["text", "lcov"]
+coverageDir = "coverage"
+coverageSkipTestFiles = true
+coveragePathIgnorePatterns = ["node_modules/", "dist/", "**/*.config.ts"]
+timeout = 5000

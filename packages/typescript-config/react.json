@@ -1,0 +1,6 @@
+{
+  "extends": "./bundler.json",
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}
